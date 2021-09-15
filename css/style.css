@@ -1,0 +1,420 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+div.container {
+  width: 100%;
+  min-width: 310px;
+}
+div.container header.hero {
+  background-color: #fbf8f3;
+  padding: 2rem;
+}
+div.container header.hero nav div.inside-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+div.container header.hero.sign-up {
+  background-color: white;
+}
+div.container header.hero div.hero-image {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.container header.hero div.hero-image img {
+  height: auto;
+}
+div.container header.hero div.hero-text-area h1.hero-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+div.container header.hero div.hero-text-area p.hero-text {
+  color: #555;
+  font-size: 1.1rem;
+}
+div.container header.hero div.hero-text-area a.trial-button, div.container header.hero div.hero-text-area a.examples-button {
+  text-decoration: none;
+  display: block;
+  padding: 1rem 0;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+div.container header.hero div.hero-text-area a.trial-button {
+  width: 100%;
+  background-color: #4d13d1;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+div.container header.hero div.hero-text-area a.examples-button {
+  width: 100%;
+  text-align: center;
+  color: #4d13d1;
+  text-decoration: underline;
+}
+div.container header.hero div.hero-text-area ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+div.container header.hero div.hero-text-area ul li {
+  overflow: visible;
+  list-style-image: url(../Assets/Checkmark.svg);
+}
+div.container main {
+  padding: 2rem;
+}
+div.container main section.why-us h5.why-subtitle {
+  color: #4d13d1;
+  font-weight: 900;
+}
+div.container main section.why-us h2.why-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+div.container main section.why-us ul.our-advantages {
+  margin: 1rem 0;
+}
+div.container main section.why-us ul.our-advantages li.advantage {
+  margin: 1rem 0;
+}
+div.container main section.why-us ul.our-advantages li.advantage img {
+  margin-bottom: 0.5rem;
+}
+div.container main section.why-us ul.our-advantages li.advantage h5 {
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  font-size: 1.18rem;
+}
+div.container main section.why-us ul.our-advantages li.advantage p {
+  color: #444;
+  font-size: 1.1rem;
+}
+div.container main section.trial {
+  background-color: #4d13d1;
+  padding: 2rem 1.5rem 0;
+  color: white;
+  border-radius: 8px;
+}
+div.container main section.trial div.img-area {
+  width: 100%;
+  overflow: hidden;
+}
+div.container main section.trial div.img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.container main section.trial div.cta-area {
+  padding-bottom: 2rem;
+}
+div.container main section.trial div.cta-area h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+div.container main section.trial div.cta-area p {
+  font-size: 1.1rem;
+}
+div.container main section.trial div.cta-area a.trial-cta {
+  background-color: white;
+  width: 100%;
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+  font-weight: 900;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1rem 0;
+}
+div.container main section.portfolios {
+  margin: 6rem 0;
+}
+div.container main section.portfolios div.portfolio {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px gray solid;
+  border-radius: 8px;
+}
+div.container main section.portfolios div.portfolio header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+div.container main section.portfolios div.portfolio div.photo-area, div.container main section.portfolios div.portfolio div.name-area {
+  display: inline-block;
+}
+div.container main section.portfolios div.portfolio div.photo-area {
+  margin-right: 0.5rem;
+}
+div.container main section.portfolios div.portfolio div.name-area {
+  font-size: 1.1rem;
+  color: #333;
+}
+div.container main section.portfolios div.portfolio div.name-area h3 {
+  color: #4d13d1;
+}
+div.container main section.portfolios div.portfolio p {
+  font-size: 1.1rem;
+}
+div.container main section.portfolios div.portfolio a {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 0;
+  color: #4d13d1;
+  border: 1px gray solid;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+div.container main section.portfolios div.portfolio a:hover {
+  background-color: lightgray;
+}
+div.container footer {
+  padding: 3rem 2rem;
+  background-color: #fbf8f3;
+}
+div.container footer p, div.container footer a {
+  color: #696967;
+  font-size: 1.05rem;
+}
+div.container footer a {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+div.container footer div {
+  margin-bottom: 2rem;
+}
+div.container footer div:last-of-child {
+  margin-bottom: 0;
+}
+div.container footer div h3 {
+  margin-bottom: 0.5rem;
+}
+div.container footer div ul li {
+  margin-bottom: 0.5rem;
+}
+div.container section.slider {
+  display: none;
+}
+div.container section.sign-up {
+  padding: 1rem 2rem;
+}
+div.container section.sign-up h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+div.container section.sign-up form {
+  border: none;
+}
+div.container section.sign-up form fieldset {
+  border: none;
+}
+div.container section.sign-up form fieldset div.form-group {
+  margin-bottom: 1rem;
+}
+div.container section.sign-up form fieldset div.form-group label span {
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+div.container section.sign-up form fieldset div.form-group label input.form-control {
+  display: block;
+  margin-top: 0.15rem;
+  width: 100%;
+  padding: 0.35rem;
+  font-size: 1.1rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+div.container section.sign-up form fieldset div.form-group label.terms {
+  display: flex;
+}
+div.container section.sign-up form fieldset div.form-group label.terms input {
+  margin-right: 0.5rem;
+  margin-top: 0rem;
+}
+div.container section.sign-up form fieldset div.form-group label.terms span {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+div.container section.sign-up form fieldset div.form-group label.terms span a {
+  color: #4d13d1;
+  font-weight: 600;
+}
+div.container section.sign-up form fieldset button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4d13d1;
+  color: white;
+  font-weight: 700;
+  font-size: 1.05rem;
+  border-radius: 8px;
+}
+div.container section.sign-up div.have-account {
+  margin-top: 0.75rem;
+}
+div.container section.sign-up div.have-account p {
+  text-align: center;
+}
+div.container section.sign-up div.have-account p a {
+  color: #4d13d1;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 800px) {
+  div.container.sign-up {
+    display: flex;
+  }
+
+  div.container header.hero {
+    display: flex;
+    padding-top: 4rem;
+    z-index: 3;
+  }
+  div.container header.hero.sign-up {
+    background-color: transparent;
+  }
+  div.container header.hero nav {
+    position: fixed;
+    top: 2rem;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+  }
+  div.container header.hero nav div.inside-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  div.container header.hero div.salva {
+    display: flex;
+    padding-top: 2rem;
+  }
+  div.container header.hero div.hero-image {
+    order: 2;
+  }
+  div.container header.hero div.hero-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div.container header.hero div.hero-text-area h1.hero-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    overflow: visible;
+  }
+  div.container header.hero div.hero-text-area a.trial-button, div.container header.hero div.hero-text-area a.examples-button {
+    width: 45%;
+    min-width: 150px;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  div.container main section, div.container main section.portfolios {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.container main section.why-us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.container main section.trial {
+    display: flex;
+  }
+  div.container main section.trial div.cta-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+  div.container main section.trial div.cta-area a.trial-cta {
+    width: fit-content;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0;
+  }
+  div.container main section.portfolios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.container main section.portfolios div.portfolio {
+    margin-right: 1rem;
+  }
+  div.container main section.portfolios div.portfolio:last-of-type {
+    margin-right: 0;
+  }
+  div.container footer div.inside-footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  div.container footer div.principal {
+    grid-column: 1/4;
+  }
+  div.container section.slider, div.container section.sign-up {
+    padding: 4rem 3rem 0;
+    width: 50%;
+    display: flex;
+    min-height: 100vh;
+  }
+  div.container section.slider {
+    display: block;
+    background-color: #4d13d1;
+    text-align: center;
+    color: white;
+  }
+  div.container section.slider .sign-up-img {
+    width: 100%;
+    height: auto;
+  }
+  div.container section.slider h2.title {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 950px) {
+  section.sing-up {
+    display: flex;
+  }
+  section.sing-up div.sign-up-inside, section.sing-up div.slider-inside {
+    max-width: 480px;
+  }
+  section.sing-up.sign-up {
+    justify-content: flex-end;
+  }
+  section.sing-up.slider {
+    justify-content: flex-start;
+  }
+}
+/*
+1fr 1fr 1fr min-max(.5rem, 2rem) 1fr min-max(.5rem, 2rem) 1fr min-max(.5rem, 2rem) 1fr min-max(.5rem, 2rem) 1fr
+*/
+
+/*# sourceMappingURL=style.css.map */
